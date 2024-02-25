@@ -13,7 +13,7 @@ app.get("/twitter", (req, res) => {
 });
 
 app.get("/login", (req, res) => {
-  res.send("<><h1>Login Page..</h1> <button>Login</button></>");
+  res.send("<h1>Login Page..</h1> <button>Login</button>");
 });
 
 app.listen(process.env.PORT, () => {
